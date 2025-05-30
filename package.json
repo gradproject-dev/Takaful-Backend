@@ -41,6 +41,9 @@
     "sharp": "^0.34.0",
     "typeorm": "^0.3.21"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
