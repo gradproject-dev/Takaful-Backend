@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+POST http://localhost:3000/users
+Content-Type:application/json
+{
+    "email":"anyatayem@gmail.com",
+    "password":"sAMAH22_22"
+=======
+POST http://localhost:3000/users
+Content-Type:application/json
+{
+    "email":"anyatayem@gmail.com",
+    "password":"sAMAH22_22"
+>>>>>>> f3d7e4d62b0d7c1150eabc449233cf3722e4d425
+}
