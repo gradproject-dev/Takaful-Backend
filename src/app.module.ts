@@ -35,8 +35,8 @@ const ENV = process.env.NODE_ENV;
       useFactory: (configservice: ConfigService) => {
         return {
           type: 'postgres',
-          host: configservice.getOrThrow('DB_HOST'),
           port: configservice.getOrThrow('DB_PORT'),
+          host: configservice.getOrThrow('DB_HOST'),
           username: configservice.getOrThrow('DB_USERNAME'),
           database: configservice.getOrThrow('DB'),
           password: configservice.getOrThrow('DB_PASSWORD'),

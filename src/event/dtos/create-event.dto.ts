@@ -21,7 +21,10 @@ export class CreateEventDto {
 
   @IsString()
   @IsNotEmpty()
-  location: string;
+  lat: string;
+  @IsString()
+  @IsNotEmpty()
+  lng: string;
 
   @IsString()
   @IsNotEmpty()
